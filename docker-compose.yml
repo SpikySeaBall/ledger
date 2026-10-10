@@ -1,0 +1,8 @@
+services:
+  ledger:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ledger-system:latest
+    ports:
+      - "8000:8080"
